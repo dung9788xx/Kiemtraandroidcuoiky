@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Activity_Gioi_Thieu">
+    <TextView
+        android:textColor="#0097A7"
+        android:gravity="center"
+        android:text="Phần mềm được thiết kế bởi Trương Văn Dũng, lớp CNTT_K14C , sinh viên Trường Đại học Công nghệ thông tin và truyền thông.
+            "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:gravity="center"
+        android:text="Copyright @DungDemo 2019"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
