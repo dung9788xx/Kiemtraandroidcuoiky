@@ -217,6 +217,7 @@ public class Activity_Cham_Cong extends AppCompatActivity implements AsyncRespon
                     };
                     lv.setAdapter(arrayAdapter);
                     findViewById(R.id.content).setVisibility(View.VISIBLE);
+                    findViewById(R.id.progress).setVisibility(View.GONE);
 
                 } catch (JSONException e) {
 
